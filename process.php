@@ -1,6 +1,6 @@
 <?php
 global $pdo;
-require_once 'connect.php';
+require 'connect.php';
 //get data from form
 $title = trim(filter_input(INPUT_POST, 'title', FILTER_SANITIZE_STRING));
 $author = trim(filter_input(INPUT_POST, 'author', FILTER_SANITIZE_STRING));
